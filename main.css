@@ -3,14 +3,7 @@ body {
     position: relative;
     height: 100%;
   }
-  
-  .pageTop {
-    background-size: cover;
-    background-image: url("https://farm9.staticflickr.com/8448/7824952366_0d0ff9ed1d_b.jpg");
-    height: 600px;
-    margin-top: 0px;
-  }
-  
+ 
   .scrollPadding {
     padding-top: 70px;
     padding-bottom: 300px;
@@ -32,7 +25,6 @@ body {
   }
   
   h1 {
-    text-transform: uppercase;
     letter-spacing: 2px;
   }
   
