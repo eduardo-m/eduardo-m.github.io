@@ -1,0 +1,42 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+    height: 100%;
+  }
+  
+  .pageTop {
+    background-size: cover;
+    background-image: url("https://farm9.staticflickr.com/8448/7824952366_0d0ff9ed1d_b.jpg");
+    height: 600px;
+    margin-top: 0px;
+  }
+  
+  .scrollPadding {
+    padding-top: 70px;
+    padding-bottom: 300px;
+  }
+  
+  .smallPadding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  label {
+    margin-right: 430px;
+    margin-left: auto;
+  }
+  
+  form {
+    width: 430px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  p {
+    font: 18px "Ubuntu", sans-serif;
+  }
+  
