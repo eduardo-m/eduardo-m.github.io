@@ -1,13 +1,131 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <title>eduardomeza.com | Home</title>
-</head>
-<body>
-    <h1>Hello World!</h1>
 
-    <p>This website is under construction...</p>
-    <p>Come back soon!</p>
+<head>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+    <title>www.eduardoestevez.com</title>
+</head>
+
+<body data-spy="scroll" data-target="#myNavBar" data-offset="0">
+    <div class="container-fluid">
+        <nav id="myNavBar" class="navbar fixed-top navbar-light bg-light">
+            <a href="#" class="navbar-brand">Eduardo E</a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#section1">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section3">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="section1" class="text-center scrollPadding">
+
+            <h1>Eduardo E.</h1>
+
+            <div class="row smallPadding">
+                <div class="col-sm-4 text-center">
+                    <div class="my-icon">
+                        <i class="fa fa-code"></i>
+                    </div>
+                    <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+                    <p>I love writting code!</p>
+                </div>
+
+                <div class="col-sm-4 text-center">
+                    <div class="my-icon">
+                        <i class="fa fa-cogs"></i>
+                    </div>
+                    <p>And tinkering with things</p>
+                </div>
+
+                <div class="col-sm-4 text-center">
+                    <div class="my-icon">
+                        <i class="fa fa-wrench"></i>
+                    </div>
+                    <p>Which doesnt always go as expected</p>
+                </div>
+            </div>
+
+            <p>What is there to learn about me? Well, I am a computer science student aspiring to become a developer.</br>I
+                spend a lot of free time learning and practicing skills on and off the computer screen to help me become
+                a competent person in the field and a reliable individual.</br>My latest project at this point is completing
+                a
+                <a href="https://www.freecodecamp.org/map/" target="_blank">freeCodeCamp</a> challenge to design and build this page!</br>It is dedicated to showcase a brief portfolio
+                and I hope you find it interesting.</p>
+        </div>
+
+        <div id="section2" class="text-center scrollPadding">
+            <h1>Portfolio</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="jumbotron">
+                        <img class="img-responsive" src="https://s3.amazonaws.com/freecodecamp/freecodecamp_logo.svg" style="background-color:green;">
+                        <p class="row smallPadding">freeCodeCamp is a community that helps you learn to code, they offer coding challenges and projects
+                            for you to complete. Here is my submission for the Front End Development Challenge: Build and
+                            design a tribute page!</p>
+                        <p>
+                            <a class="btn btn-primary btn-lg" href="https://codepen.io/eduardo-m/full/zjqyoR/" target="_blank" role="button">See Page</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="jumbotron">And there is more to come...</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="section3" class="text-center scrollPadding">
+            <h1>Contact</h1>
+            <form id="contact-form" name="htmlform" method="post" action="/send-a-message">
+                <div class="form-group">
+                    <label for="name-input">Name:</label>
+                    <input type="text" class="form-control" id="name-input" placeholder="*Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email:</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="*Enter email" required>
+                </div>
+                <div class="form-group">
+                    <label for="exampleTextarea">Message:</label>
+                    <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="*Let's connect!" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
